@@ -1,13 +1,13 @@
 {
-  "name": "@anthropic-ai/claude-code",
-  "version": "0.0.0-leaked",
-  "description": "Anthropic Claude Code CLI — leaked source (2026-03-31). Not an official release.",
+  "name": "@visheshsanghvi/vishesh-code",
+  "version": "1.0.0-custom",
+  "description": "The Frontier Engineering Agent CLI — Enhanced by Vishesh Sanghvi.",
   "license": "UNLICENSED",
   "private": true,
   "type": "module",
   "main": "src/entrypoints/cli.tsx",
   "bin": {
-    "claude": "src/entrypoints/cli.tsx"
+    "vishesh": "src/entrypoints/cli.tsx"
   },
   "scripts": {
     "build": "bun scripts/build-bundle.ts",

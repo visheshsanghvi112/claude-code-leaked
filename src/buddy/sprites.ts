@@ -18,6 +18,7 @@ import {
   robot,
   snail,
   turtle,
+  vishesh,
 } from './types.js'
 
 // Each sprite is 5 lines tall, 12 wide (after {E}→1char substitution).
@@ -438,6 +439,29 @@ const BODIES: Record<Species, string[][]> = {
       '  `------´~ ',
     ],
   ],
+  [vishesh]: [
+    [
+      '            ',
+      '   /\\__/\\   ',
+      '  ( {E}  {E} )  ',
+      '  (  --  )  ',
+      '  /|_--_|\\  ',
+    ],
+    [
+      '            ',
+      '   /\\__/\\   ',
+      '  ( {E}  {E} )  ',
+      '  (  --  )  ',
+      ' / |_--_| \\ ',
+    ],
+    [
+      '            ',
+      '   /\\__/\\   ',
+      '  ( {E}  {E} )  ',
+      '  (  ^   )  ',
+      '  /|_--_|\\  ',
+    ],
+  ],
 }
 
 const HAT_LINES: Record<Hat, string> = {
@@ -510,6 +534,8 @@ export function renderFace(bones: CompanionBones): string {
       return `|${eye}  ${eye}|`
     case chonk:
       return `(${eye}.${eye})`
+    case vishesh:
+      return `<${eye}✦${eye}>`
   }
 }
 

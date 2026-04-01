@@ -50,6 +50,7 @@ export const mushroom = c(
   0x6d,
 ) as 'mushroom'
 export const chonk = c(0x63, 0x68, 0x6f, 0x6e, 0x6b) as 'chonk'
+export const vishesh = c(0x76, 0x69, 0x73, 0x68, 0x65, 0x73, 0x68) as 'vishesh'
 
 export const SPECIES = [
   duck,
@@ -70,6 +71,7 @@ export const SPECIES = [
   rabbit,
   mushroom,
   chonk,
+  vishesh,
 ] as const
 export type Species = (typeof SPECIES)[number] // biome-ignore format: keep compact
 
