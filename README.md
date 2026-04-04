@@ -8,7 +8,7 @@
 
 [LinkedIn](https://www.linkedin.com/in/vishesh-sanghvi/) · [Portfolio](https://vishesh-ai.vercel.app/)
 
-A terminal-based AI coding agent. It reads files, runs shell commands, edits code, searches the web, and manages multi-hour sessions — all from a single terminal window. Built on the leaked Claude Code architecture (~1,941 source files, ~512K lines of TypeScript).
+A terminal-based AI coding agent. It reads files, runs shell commands, edits code, searches the web, and manages multi-hour sessions — all from a single terminal window. Inspired by and built upon a research exploration of an AI agent architecture (~1,941 source files, ~512K lines of TypeScript).
 
 ---
 
@@ -186,4 +186,4 @@ docker run -it --rm -e ANTHROPIC_API_KEY=sk-... vishesh-code
 
 ---
 
-> **Disclaimer:** This is a research fork of the Claude Code CLI (leaked March 2025). It requires an Anthropic API key to function. Not affiliated with Anthropic.
+> **Disclaimer:** This is a research fork of the Claude Code CLI, studied for educational purposes. It requires an Anthropic API key to function. Not affiliated with Anthropic.

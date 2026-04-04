@@ -2,9 +2,9 @@
 
 ## Context
 
-You are working in `/workspaces/claude-code`, which contains the leaked source code of Anthropic's Claude Code CLI. It's a TypeScript/TSX project that uses **Bun** as its runtime (not Node.js). The `package.json` specifies `"engines": { "bun": ">=1.1.0" }`.
+You are working in `/workspaces/claude-code`, which contains the source code of Anthropic's Claude Code CLI. It's a TypeScript/TSX project that uses **Bun** as its runtime (not Node.js). The `package.json` specifies `"engines": { "bun": ">=1.1.0" }`.
 
-There is no `bun.lockb` lockfile — it was not included in the leak.
+There is no `bun.lockb` lockfile — it was not included in the original source.
 
 ## Task
 

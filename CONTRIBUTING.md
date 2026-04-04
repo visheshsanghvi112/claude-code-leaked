@@ -4,7 +4,7 @@ Thanks for your interest in contributing to this repository!
 
 ## What This Is
 
-This repo archives the **leaked source code** of Anthropic's Claude Code CLI. Contributions here are about **documentation, tooling, and exploration aids** — not modifying the original Claude Code source.
+This repo is a **research fork** of Anthropic's Claude Code CLI, maintained by [Vishesh Sanghvi](https://www.linkedin.com/in/vishesh-sanghvi/). Contributions here are about **documentation, tooling, and exploration aids** — not modifying the original Claude Code source.
 
 ## What You Can Contribute
 
@@ -16,8 +16,7 @@ This repo archives the **leaked source code** of Anthropic's Claude Code CLI. Co
 
 ## What Not to Change
 
-- **`src/` directory** — This is the original leaked source, preserved as-is. Don't modify it.
-- The [`backup` branch](https://github.com/codeaashu/claude-code/tree/backup) contains the unmodified original.
+- **`src/` directory** — This is the original source, preserved as-is for study. Don't modify it.
 
 ## Getting Started
 
@@ -29,8 +28,8 @@ This repo archives the **leaked source code** of Anthropic's Claude Code CLI. Co
 ### Setup
 
 ```bash
-git clone https://github.com/codeaashu/claude-code.git
-cd claude-code
+git clone https://github.com/visheshsanghvi112/claude-code-leaked.git
+cd claude-code-leaked
 ```
 
 ### MCP Server Development
@@ -45,7 +44,7 @@ npm run build  # Compile to dist/
 ### Linting & Type Checking
 
 ```bash
-# From the repo root — checks the leaked src/
+# From the repo root — checks the original src/
 npm run lint        # Biome lint
 npm run typecheck   # TypeScript type check
 ```
@@ -69,4 +68,4 @@ For any new code (MCP server, tooling, scripts):
 
 ## Questions?
 
-Open an issue or reach out to [nichxbt](https://www.x.com/nichxbt).
+Open an issue or reach out to [Vishesh Sanghvi](https://www.linkedin.com/in/vishesh-sanghvi/).
